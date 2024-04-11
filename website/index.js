@@ -1,19 +1,23 @@
 $(document).ready(function (e) {
-    $win = $(window);
-    $navbar = $('#header');
-    $toggle = $('.toggle-button');
+    var $win = $(window);
+    var $navbar = $('#header');
+    var $toggle = $('.toggle-button');
     var width = $navbar.width();
     toggle_onclick($win, $navbar, width);
 
-    // resize event
+    // Resize event
     $win.resize(function () {
         toggle_onclick($win, $navbar, width);
     });
 
     $toggle.click(function (e) {
         $navbar.toggleClass("toggle-left");
-    })
+    });
 
+    // Dark Mode Toggle
+    $('#dark-mode-toggle').click(function() {
+        $('body').toggleClass('dark-mode');
+    });
 });
 
 function toggle_onclick($win, $navbar, width) {

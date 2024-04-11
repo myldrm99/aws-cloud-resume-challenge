@@ -5,7 +5,8 @@ body{
     padding: 0;
 }
 
-:root{
+:root {
+    /* Existing Light Mode Variables */
     --color-black: #000000;
     --color-white: #ffffff;
     --color-border: #ffffff34;
@@ -13,7 +14,14 @@ body{
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
+
+    /* Dark Mode Variables */
+    --dark-bg: #333333;          /* Darker background for better contrast */
+    --dark-bg-lighter: #444444;  /* Slightly lighter than the main dark background */
+    --dark-text: #e0e0e0;        /* Lighter text suitable for dark backgrounds */
+    --dark-border: #444444;      /* Borders suitable for dark mode */
 }
+
 
 /* global classes */
 .font-staat{
@@ -222,3 +230,37 @@ body{
 .eye :hover{
     color: var(--color-white);
 }
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+body.dark-mode a,
+body.dark-mode .nav-link,
+body.dark-mode .social-icons a {
+    color: var(--dark-text);
+}
+
+body.dark-mode .bgcolor-black {
+    background-color: var(--dark-bg-lighter);
+}
+
+body.dark-mode .social-icons a:hover {
+    background-color: var(--color-blue);  /* Keep branding color on hover */
+}
+
+body.dark-mode .nav-link:hover {
+    color: var(--color-white);
+}
+
+body.dark-mode #header {
+    border-color: var(--dark-border);
+}
+
+body.dark-mode .toggle-button {
+    color: var(--dark-text);
+}
+
+/* Modify other specific elements as needed */
