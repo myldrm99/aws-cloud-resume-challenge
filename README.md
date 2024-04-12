@@ -1,6 +1,6 @@
 ﻿# AWS Cloud Resume Challenge
 
-## Technologies Used
+## Built With
 
 ### AWS Services
 
@@ -15,6 +15,10 @@
 
 - GitHub Actions (CI/CD)
 - HTML, CSS, JavaScript
+
+## Architecture
+![aws drawio](https://github.com/myldrm99/aws-cloud-resume-challenge/assets/48071090/86ba8910-1e89-4cb0-9236-4cf5916caea9)
+
 
 ##
 You can visit the website [here](https://muhammed-yildirim.com/).
