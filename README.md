@@ -1,10 +1,17 @@
 ﻿# AWS Cloud Resume Challenge
 
-## Built With
-- S3
-- CloudFront
+## Technologies Used
+
+### AWS Services
+
 - Route 53
+- AWS CloudFront
+- Amazon IAM
+- Amazon S3
+- AWS Lambda
 - DynamoDB
-- Lambda
-- API Gateway
-- CloudWatch
+
+### Tools & Frameworks
+
+- GitHub Actions (CI/CD)
+- HTML, CSS, JavaScript
