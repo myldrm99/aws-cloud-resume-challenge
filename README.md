@@ -17,7 +17,7 @@
 - HTML, CSS, JavaScript
 
 ## Architecture
-![aws drawio](https://github.com/myldrm99/aws-cloud-resume-challenge/assets/48071090/ead72b4d-157e-41af-87e3-3b3f1a1fb0c3)
+![aws drawio](https://github.com/myldrm99/aws-cloud-resume-challenge/assets/48071090/a02d53d8-9367-4433-81ee-75f7d7613d38)
 
 
 
